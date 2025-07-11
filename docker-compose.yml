@@ -1,0 +1,7 @@
+# docker-compose.yml example
+services:
+  your-agent:
+    build: .
+    environment:
+      - OLLAMA_HOST=http://host.docker.internal:11434
+
